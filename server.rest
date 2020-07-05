@@ -1,0 +1,41 @@
+### get 
+GET http://localhost:3000
+### 
+
+### get /id
+GET http://localhost:3000/145
+### 
+
+### post 
+POST http://localhost:3000/create
+Content-Type: application/json
+
+{
+  "login": "",
+  "senha": "432"
+}
+### 
+
+### put 
+PUT http://localhost:3000
+Content-Type: application/json
+
+{
+  "login": "MALU",
+  "senha": "4321"
+}
+### 
+
+### delete 
+DELETE  http://localhost:3000/pauu
+### 
+
+### patch 
+PATCH  http://localhost:3000
+Content-Type: application/json
+
+{
+  "login": "MALU",
+  "senha": "4321"
+}
+### 
